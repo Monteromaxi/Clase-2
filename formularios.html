@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <title>Formularios
+  </title>
+</head>
+<body>
+  <header>
+    <h1>
+      Formularios
+    </h1>
+  </header>
+  <main>
+    <section>
+      <form action="https://formspree.io/f/mdojyrjy" method="POST" target="_blank">
+        <label>
+          Nombre
+        <input name="nombre" type="text"/>
+          </label>
+        <label>
+          Comentarios
+          <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+        </label>
+        <input name="submit" type="submit"/>
+        <input name="reset" type="reset"/>
+        <label>
+          Seleccionar
+          <select>
+            <option>
+              Uno
+            </option>
+            <option>
+              Dos
+            </option>
+            <option>
+              Tres
+            </option>
+          </select>
+        </label>
+      </form>
+      <br>
+      <br>
+      <br>
+      <form>
+        <fieldset>
+          <legend>
+            Datos Personales
+          </legend>
+          <label>
+            Nombre
+          <input name="nombre" type="text" placeholder="Nombre" required=""/>
+          </label>
+          <br>
+          <label>
+            Apellido
+            <input name="apellido" type="text" placeholder="Apellido" required=""/>
+          </label>
+          <br>
+          <label>
+            Correo electrónico
+            <input name="email" placeholder="xxx@xxx.com.ar" required="" type="email"/>
+          </label>
+          <br>
+          <input name="submit" type="submit"/>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
